@@ -1,0 +1,45 @@
+<command>
+
+<description>
+
+
+
+from csvlib import *
+
+Imports the library.
+
+
+
+from csvlib import *
+
+Imports the library, but you'll have to prefix every command with "csvlib.".
+
+
+
+as_string(a)
+
+Returns the raw content of the file "a" as a simple string.
+
+
+
+as_rowlist(a)
+
+Returns the content of the file "a" as a 2-dimensional list where each list represents a row.
+
+
+
+as_topclipped_rowlist(a)
+
+Same as as_rowlist(a), but without including the 1st row.
+
+
+
+as_sideclipped_rowlist(a)
+
+Same as as_rowlist(a), but without including the 1st column.
+
+
+
+as_biclipped_rowlist(a)
+
+Same as as_rowlist(a), but without including neither the 1st row nor the 1st column.

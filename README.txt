@@ -1,0 +1,5 @@
+- Python library with commands to convert .csv files into strings or lists.
+- Made without relying on any external library.
+- The actual library is "csvlib.py".
+- See "documentation.txt" for an explaination of the various commands.
+- "test.py" and "test2.py" are an example of how to use the library.
