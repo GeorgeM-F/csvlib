@@ -1,3 +1,3 @@
 from csvlib import *
 
-print(as_biclipped_rowlist('test.csv'))
+print(as_rowlist('test.csv'))
